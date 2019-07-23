@@ -9,4 +9,11 @@ if, then, else, for, while<br>
   <b> Operatori</b><br>
   +, -, *, /, <, >, <=, >=, =, ==, &&, ||, !=<br>
   <b> Separator </b><br>
-  ., ;, (,),[,], {, }<br>
+  .<br>
+  ;<br>
+  (<br>
+  )<br>
+  [<br>
+  ]<br> 
+  {<br> 
+  }<br>
