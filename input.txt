@@ -1,0 +1,11 @@
+if(a==5) {
+	@comment 
+	return a;
+}
+else {
+	Comment other
+	comment
+	here EndComment
+	
+	a++; 
+	}
