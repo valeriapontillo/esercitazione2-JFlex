@@ -1,11 +1,11 @@
 if(a==5) {
-	@comment 
+	//comment 
 	return a;
 }
 else {
-	Comment other
+	/* other
 	comment
-	here EndComment
+	here /*
 	
 	a++; 
 	}
