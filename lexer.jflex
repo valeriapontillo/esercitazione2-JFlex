@@ -31,8 +31,8 @@ Whitespace = [ \t\f] | {Newline}
 
 /* comments */
 Comment = {TraditionalComment} | {EndOfLineComment}
-TraditionalComment = "Comment" {CommentContent} \*+ "EndComment"
-EndOfLineComment = "@" [^\r\n]* {CommentContent}  {Newline}
+TraditionalComment = "/*" {CommentContent} \*+ "/*"
+EndOfLineComment = "//" [^\r\n]* {CommentContent}  {Newline}
 CommentContent =  ( [^*] | \*+[^*/] )*
 
 Identifier = ([:jletter:] | "_" ) ([:jletterdigit:] | [:jletter:] | "_" )*
